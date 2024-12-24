@@ -51,10 +51,10 @@
 
 .go-to-projects-button {
 	background-color: transparent;
-	color: rgb(21, 21, 21);
 	padding: 10px;
 	border-radius: 10px;
-	border: 1px solid rgb(21, 21, 21);
+	border: 1px solid;
+	z-index: -10;
 }
 
 .link {

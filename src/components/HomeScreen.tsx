@@ -1,12 +1,15 @@
 import { Link } from "react-scroll";
 import "../styles/HomeScreen.css";
-import TechnosFav from "./TechnosFav";
-import AboutMySelf from "./AboutMe";
-import Projects from "./Projects";
-import Contact from "./Contact";
 import { saveAs } from "file-saver";
+import AboutMySelf from "./AboutMe";
+import Contact from "./Contact";
+import Projects from "./Projects";
+import TechnosFav from "./TechnosFav";
+import { useTheme } from "../contexts/themeContext";
 
 export default function HomeScreen() {
+	const { theme } = useTheme();
+
 	return (
 		<>
 			<div className="homescreen-container">
@@ -45,7 +48,14 @@ export default function HomeScreen() {
 						Télécharger CV
 					</button>
 					<Link className="link" to="projects" smooth offset={-50}>
-						<button className="go-to-projects-button" type="button">
+						<button
+							className="go-to-projects-button"
+							type="button"
+							style={{
+								color: theme ? "black" : "white",
+								borderColor: theme ? "black" : "white",
+							}}
+						>
 							Voir mes projets
 						</button>
 					</Link>

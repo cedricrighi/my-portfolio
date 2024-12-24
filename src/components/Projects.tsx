@@ -1,6 +1,7 @@
-import trombiProject from "/img/trombi-project.png";
 import memoryGame from "/img/memory-game.png";
+import trombiProject from "/img/trombi-project.png";
 import "../styles/Projects.css";
+import { useTheme } from "../contexts/themeContext";
 
 export default function Projects() {
 	const projects = [
@@ -18,8 +19,14 @@ export default function Projects() {
 		},
 	];
 
+	const { theme } = useTheme();
+
 	return (
-		<div className="my-projects-container" id="projects">
+		<div
+			className="my-projects-container"
+			id="projects"
+			style={{ backgroundColor: theme ? "#f6f6f6" : "#080548" }}
+		>
 			<h2>Mes projets</h2>
 			<div className="projects-container">
 				{projects.map((project, index) => {
@@ -27,7 +34,10 @@ export default function Projects() {
 					return (
 						<div key={id} className="project">
 							<img src={project.image} alt="project" className="project-img" />
-							<div className="project-description">
+							<div
+								className="project-description"
+								style={{ backgroundColor: theme ? "white" : "#02002f" }}
+							>
 								<h3>{project.title}</h3>
 								<div className="techs">
 									{project.techs.map((tech, index) => {
