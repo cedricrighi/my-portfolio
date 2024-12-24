@@ -1,6 +1,6 @@
 .my-projects-container {
 	background-color: #f6f6f6;
-	padding-block: 30px;
+	padding-block: 50px 30px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -24,6 +24,18 @@
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
+}
+
+.project-description a {
+	text-decoration: none;
+	color: #005ab4;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.project-description a:visited {
+	color: #005ab4;
 }
 
 .techs {

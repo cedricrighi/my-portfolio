@@ -57,6 +57,10 @@
 	border: 1px solid rgb(21, 21, 21);
 }
 
+.link {
+	offset: -100px;
+}
+
 .link-to-bottom {
 	margin-top: 15px;
 	display: flex;

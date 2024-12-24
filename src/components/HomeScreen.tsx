@@ -44,9 +44,11 @@ export default function HomeScreen() {
 						</svg>
 						Télécharger CV
 					</button>
-					<button className="go-to-projects-button" type="button">
-						Voir mes projets
-					</button>
+					<Link className="link" to="projects" smooth offset={-50}>
+						<button className="go-to-projects-button" type="button">
+							Voir mes projets
+						</button>
+					</Link>
 				</div>
 				<TechnosFav />
 				<div className="link-to-bottom">

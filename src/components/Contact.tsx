@@ -3,7 +3,7 @@ import "../styles/Contact.css";
 export default function Contact() {
 	return (
 		<div className="contact-container">
-			<h2>Contact</h2>
+			<h2>Retrouvez-moi</h2>
 			<div className="icon-list-contact">
 				<a
 					href="https://www.linkedin.com/in/cedric-righi-64383732b"

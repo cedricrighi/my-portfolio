@@ -19,7 +19,7 @@ export default function Projects() {
 	];
 
 	return (
-		<div className="my-projects-container">
+		<div className="my-projects-container" id="projects">
 			<h2>Mes projets</h2>
 			{projects.map((project, index) => {
 				const id = index + 1;
