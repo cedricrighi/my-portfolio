@@ -4,6 +4,13 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 40px;
+}
+
+.projects-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 	gap: 30px;
 }
 
@@ -54,4 +61,16 @@
 
 .external-link-icon {
 	width: 14px;
+}
+
+@media screen and (width > 800px) {
+	.projects-container {
+		width: 80%;
+		flex-direction: row;
+		gap: 30px;
+	}
+
+	.project {
+		width: 40%;
+	}
 }

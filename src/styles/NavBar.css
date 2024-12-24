@@ -37,3 +37,9 @@ nav img {
 	cursor: pointer;
 	width: 25px;
 }
+
+@media screen and (width > 500px) {
+	.nav-right-part {
+		width: 80px;
+	}
+}
