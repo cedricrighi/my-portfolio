@@ -63,35 +63,6 @@ export default function NavBar() {
 							</defs>
 						</svg>
 					)}
-
-					<svg
-						className="burger-icon"
-						viewBox="0 0 20 13"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-					>
-						<title>dark burger menu icon</title>
-						<rect
-							width="20"
-							height="3"
-							rx="1.5"
-							fill={theme ? "#1E1E1E" : "white"}
-						/>
-						<rect
-							y="5"
-							width="20"
-							height="3"
-							rx="1.5"
-							fill={theme ? "#1E1E1E" : "white"}
-						/>
-						<rect
-							y="10"
-							width="20"
-							height="3"
-							rx="1.5"
-							fill={theme ? "#1E1E1E" : "white"}
-						/>
-					</svg>
 				</div>
 			</nav>
 		</>
