@@ -1,5 +1,6 @@
 import memoryGame from "/img/memory-game.png";
 import trombiProject from "/img/trombi-project.png";
+import cineWild from "/img/cine-wild.png";
 import "../styles/Projects.css";
 import { useTheme } from "../contexts/themeContext";
 
@@ -16,6 +17,12 @@ export default function Projects() {
 			title: "Jeu de mémoire",
 			techs: ["React", "TypeScript"],
 			link: "https://cedricrighi.github.io/memory-game/",
+		},
+		{
+			image: cineWild,
+			title: "Site de recherche de film",
+			techs: ["React", "TypeScript"],
+			link: "#",
 		},
 	];
 
