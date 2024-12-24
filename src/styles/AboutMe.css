@@ -13,7 +13,7 @@
 	width: 200px;
 	height: 200px;
 	border-radius: 200px;
-	background-image: url("img/photo.png");
+	background-image: url("/img/photo.png");
 	background-size: cover;
 	background-position: -2px -20px;
 }
