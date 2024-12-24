@@ -1,12 +1,8 @@
 import "../styles/AboutMe.css";
 
-interface AboutMySelfProps {
-	id: string;
-}
-
-export default function AboutMySelf({ id }: AboutMySelfProps) {
+export default function AboutMySelf() {
 	return (
-		<div id={id} className="about-me-container">
+		<div id="about-me" className="about-me-container">
 			<h2>À propos de moi</h2>
 			<div className="photo-container" />
 			<div className="presentation">

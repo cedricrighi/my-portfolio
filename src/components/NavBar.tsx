@@ -9,8 +9,7 @@ export default function NavBar() {
 				</div>
 				<div className="nav-right-part">
 					<svg
-						width="14"
-						height="14"
+						className="moon-icon"
 						viewBox="0 0 14 14"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +25,7 @@ export default function NavBar() {
 					</svg>
 
 					<svg
-						width="20"
-						height="13"
+						className="burger-icon"
 						viewBox="0 0 20 13"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"

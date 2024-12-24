@@ -12,3 +12,9 @@
 	justify-content: space-around;
 	align-items: center;
 }
+
+.linkedin-icon,
+.github-icon,
+.mail-icon {
+	width: 50px;
+}

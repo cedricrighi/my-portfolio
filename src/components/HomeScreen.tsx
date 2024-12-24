@@ -53,7 +53,7 @@ export default function HomeScreen() {
 				<TechnosFav />
 				<div className="link-to-bottom">
 					<p>En découvrir plus</p>
-					<Link to="tkt" smooth>
+					<Link to="about-me" smooth>
 						<button type="button" className="button-to-bottom">
 							<svg
 								className="svg-icon-to-bottom"
@@ -73,7 +73,7 @@ export default function HomeScreen() {
 					</Link>
 				</div>
 			</div>
-			<AboutMySelf id="tkt" />
+			<AboutMySelf />
 			<Projects />
 			<Contact />
 		</>

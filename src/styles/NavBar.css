@@ -27,3 +27,13 @@ nav img {
 	justify-content: space-between;
 	align-items: center;
 }
+
+.moon-icon {
+	cursor: pointer;
+	width: 20px;
+}
+
+.burger-icon {
+	cursor: pointer;
+	width: 25px;
+}

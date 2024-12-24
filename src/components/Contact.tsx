@@ -11,6 +11,7 @@ export default function Contact() {
 					target="_blank"
 				>
 					<svg
+						className="linkedin-icon"
 						width="48"
 						height="48"
 						viewBox="0 0 48 48"
@@ -47,6 +48,7 @@ export default function Contact() {
 					target="_blank"
 				>
 					<svg
+						className="github-icon"
 						width="48"
 						height="48"
 						viewBox="0 0 48 48"
@@ -72,8 +74,7 @@ export default function Contact() {
 				</a>
 				<a href="mailto:votre.email@example.com">
 					<svg
-						width="53"
-						height="53"
+						className="mail-icon"
 						viewBox="0 0 53 53"
 						fill="none"
 						xmlns="http://www.w3.org/2000/svg"

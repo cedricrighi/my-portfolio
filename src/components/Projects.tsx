@@ -41,8 +41,7 @@ export default function Projects() {
 							<a href={project.link} rel="noreferrer noopener" target="_blank">
 								Voir le projet{" "}
 								<svg
-									width="14"
-									height="14"
+									className="external-link-icon"
 									viewBox="0 0 14 14"
 									fill="none"
 									xmlns="http://www.w3.org/2000/svg"
