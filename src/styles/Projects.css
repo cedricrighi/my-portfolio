@@ -1,0 +1,41 @@
+.my-projects-container {
+	background-color: #f6f6f6;
+	padding-block: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.project {
+	background-color: #fff;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.project-img {
+	width: 100%;
+}
+
+.project-description {
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.techs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+}
+
+.techs p {
+	padding: 3px 6px;
+	font-size: 0.8rem;
+	background-color: #d5ebff;
+	color: #005ab4;
+	border-radius: 5px;
+}

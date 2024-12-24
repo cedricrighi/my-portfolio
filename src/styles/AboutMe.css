@@ -1,0 +1,18 @@
+.about-me-container {
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+
+.photo-container {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	background-image: url("/public/img/photo.png");
+	background-size: cover;
+	background-position: -2px -20px;
+}

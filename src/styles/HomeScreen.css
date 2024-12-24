@@ -1,0 +1,79 @@
+.homescreen-container {
+	padding-top: 80px;
+	width: 100%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	height: 100vh;
+}
+
+.main-title {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.cedric-gradient {
+	background: linear-gradient(90deg, #00b2ff 0%, #ff00e1 100%);
+	color: transparent;
+	background-clip: text;
+}
+
+.description-paragraph {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.buttons-homescreen {
+	display: flex;
+	gap: 0 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.download-cv {
+	background-color: #005ab4;
+	color: white;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.download-icon {
+	width: 15px;
+	fill: white;
+}
+
+.go-to-projects-button {
+	background-color: transparent;
+	color: rgb(21, 21, 21);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(21, 21, 21);
+}
+
+.link-to-bottom {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+
+.button-to-bottom {
+	width: 40px;
+	height: 40px;
+	background-color: #005ab4;
+	border-radius: 50%;
+	border: none;
+	margin: auto;
+}
+
+.svg-icon-to-bottom {
+	width: 60%;
+}
