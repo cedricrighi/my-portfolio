@@ -75,7 +75,7 @@ export default function Contact() {
 						</defs>
 					</svg>
 				</a>
-				<a href="mailto:votre.email@example.com">
+				<a href="mailto:cedric.righi@gmail.com">
 					<svg
 						className="mail-icon"
 						viewBox="0 0 53 53"

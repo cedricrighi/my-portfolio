@@ -1,6 +1,5 @@
 import { Link } from "react-scroll";
 import "../styles/HomeScreen.css";
-import { saveAs } from "file-saver";
 import AboutMySelf from "./AboutMe";
 import Contact from "./Contact";
 import Projects from "./Projects";
@@ -21,12 +20,10 @@ export default function HomeScreen() {
 					modernes
 				</p>
 				<div className="buttons-homescreen">
-					<button
-						onClick={() =>
-							saveAs("/cedric-righi-CV.pdf", "cedric-righi-CV.pdf")
-						}
+					<a
+						href="/my-portfolio/cedric-righi-CV.pdf"
+						download="cedric-righi-CV.pdf"
 						className="download-cv"
-						type="button"
 					>
 						<svg
 							className="download-icon"
@@ -46,7 +43,7 @@ export default function HomeScreen() {
 							/>
 						</svg>
 						Télécharger CV
-					</button>
+					</a>
 					<Link className="link" to="projects" smooth offset={-50}>
 						<button
 							className="go-to-projects-button"
