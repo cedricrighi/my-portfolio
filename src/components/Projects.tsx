@@ -1,6 +1,7 @@
 import memoryGame from "/img/memory-game.png";
 import trombiProject from "/img/trombi-project.png";
 import cineWild from "/img/cine-wild.png";
+import Geocode from "/img/geocode.png";
 import "../styles/Projects.css";
 import { useTheme } from "../contexts/themeContext";
 
@@ -20,8 +21,15 @@ export default function Projects() {
 		},
 		{
 			image: cineWild,
-			title: "Site de recherche de film",
-			techs: ["React", "TypeScript"],
+			title: "Site de recherche de film (en cours de déploiement)",
+			techs: ["React", "TypeScript", "Express"],
+			link: "#",
+		},
+		{
+			image: Geocode,
+			title:
+				"Site de réservation de borne de recharge (en cours de développement)",
+			techs: ["React", "TypeScript", "MySQL"],
 			link: "#",
 		},
 	];
