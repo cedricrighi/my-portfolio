@@ -2,6 +2,7 @@ import memoryGame from "/img/memory-game.png";
 import trombiProject from "/img/trombi-project.png";
 import cineWild from "/img/cine-wild.png";
 import Geocode from "/img/geocode.png";
+import carFinder from "/img/carFinder.png";
 import "../styles/Projects.css";
 import { useTheme } from "../contexts/themeContext";
 
@@ -31,6 +32,12 @@ export default function Projects() {
 				"Site de réservation de borne de recharge (en cours de développement)",
 			techs: ["React", "TypeScript", "MySQL"],
 			link: "#",
+		},
+		{
+			image: carFinder,
+			title: "Site de recherche de voiture",
+			techs: ["React", "TypeScript", "Express"],
+			link: "https://car-finder-with-just-front.vercel.app/",
 		},
 	];
 

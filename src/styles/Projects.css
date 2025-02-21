@@ -62,14 +62,26 @@
 	width: 14px;
 }
 
-@media screen and (width > 800px) {
+@media screen and (width > 600px) {
 	.projects-container {
 		width: 80%;
-		flex-direction: row;
-		gap: 30px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
 	}
 
 	.project {
-		width: 40%;
+		width: 100%;
+	}
+}
+
+@media screen and (width > 900px) {
+	.projects-container {
+		width: 80%;
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.project {
+		width: 100%;
 	}
 }
