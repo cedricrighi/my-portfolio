@@ -3,6 +3,7 @@ import trombiProject from "/img/trombi-project.png";
 import cineWild from "/img/cine-wild.png";
 import Geocode from "/img/geocode.png";
 import carFinder from "/img/carFinder.png";
+import solarSystem from "/img/solar-system.png";
 import "../styles/Projects.css";
 import { useTheme } from "../contexts/themeContext";
 
@@ -32,6 +33,12 @@ export default function Projects() {
 				"Site de réservation de borne de recharge (en cours de développement)",
 			techs: ["React", "TypeScript", "MySQL"],
 			link: "#",
+		},
+		{
+			image: solarSystem,
+			title: "Système solaire",
+			techs: ["React", "TypeScript"],
+			link: "https://cedricrighi.github.io/solar-system/",
 		},
 		{
 			image: carFinder,
