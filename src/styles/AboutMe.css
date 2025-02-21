@@ -10,10 +10,10 @@
 }
 
 .photo-container {
-	width: 200px;
-	height: 200px;
+	width: 15rem;
+	height: 15rem;
 	border-radius: 200px;
-	background-image: url("/img/photo.png");
+	background-image: url("/img/pp.png");
 	background-size: cover;
 	background-position: -2px -20px;
 }
