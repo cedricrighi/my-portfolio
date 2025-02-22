@@ -42,7 +42,7 @@ export default function Projects() {
 		},
 		{
 			image: carFinder,
-			title: "Site de recherche de voiture",
+			title: "Site de recherche de voiture ( que le frontend de déployé )",
 			techs: ["React", "TypeScript", "Express"],
 			link: "https://car-finder-with-just-front.vercel.app/",
 		},
