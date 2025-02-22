@@ -31,7 +31,7 @@ export default function Projects() {
 			image: Geocode,
 			title:
 				"Site de réservation de borne de recharge (en cours de développement)",
-			techs: ["React", "TypeScript", "MySQL"],
+			techs: ["React", "TypeScript", "Express", "MySQL"],
 			link: "#",
 		},
 		{
@@ -43,7 +43,7 @@ export default function Projects() {
 		{
 			image: carFinder,
 			title: "Site de recherche de voiture ( que le frontend de déployé )",
-			techs: ["React", "TypeScript", "Express"],
+			techs: ["React", "TypeScript", "Express", "MySQL"],
 			link: "https://car-finder-with-just-front.vercel.app/",
 		},
 	];
@@ -67,7 +67,7 @@ export default function Projects() {
 								className="project-description"
 								style={{ backgroundColor: theme ? "white" : "#02002f" }}
 							>
-								<h3>{project.title}</h3>
+								<h3 className="project-title">{project.title}</h3>
 								<div className="techs">
 									{project.techs.map((tech, index) => {
 										const id = index + 1;

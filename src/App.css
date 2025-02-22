@@ -6,3 +6,7 @@
 	padding: O;
 	font-family: Nunito, sans-serif;
 }
+
+button {
+	cursor: pointer;
+}
