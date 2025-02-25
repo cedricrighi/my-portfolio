@@ -67,16 +67,18 @@ export default function Projects() {
 								className="project-description"
 								style={{ backgroundColor: theme ? "white" : "#02002f" }}
 							>
-								<h3 className="project-title">{project.title}</h3>
-								<div className="techs">
-									{project.techs.map((tech, index) => {
-										const id = index + 1;
-										return (
-											<p key={id} className="tech">
-												{tech}
-											</p>
-										);
-									})}
+								<div className="description-first-part">
+									<h3 className="project-title">{project.title}</h3>
+									<div className="techs">
+										{project.techs.map((tech, index) => {
+											const id = index + 1;
+											return (
+												<p key={id} className="tech">
+													{tech}
+												</p>
+											);
+										})}
+									</div>
 								</div>
 								<a
 									href={project.link}

@@ -9,10 +9,10 @@ export default function AboutMySelf() {
 				<h3>Développeur Web Fullstack</h3>
 				<p>
 					Après une année en licence de Mathématiques puis une autre en
-					Informatique, j'ai choisi de me spécialiser dans le développement web
-					à la Wild Code School. Cette formation pratique me permet de
-					transformer ma curiosité pour le code en compétences concrètes pour
-					créer des applications web modernes.
+					Informatique, j'ai choisi de me spécialiser dans le développement web.
+					Cette formation pratique me permet de transformer ma curiosité pour le
+					code en compétences concrètes pour créer des applications web
+					modernes.
 				</p>
 			</div>
 		</div>
